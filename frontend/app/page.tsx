@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-// In a real integration, you would import this from the generated package
+// In a real integration, we will import from the generated package
 // import { GraftConfig, HelloWorldService } from '@graft/nuget-EnergyPriceService';
 import { HelloWorldService } from '@/lib/graft-client';
 
