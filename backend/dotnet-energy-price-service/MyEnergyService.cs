@@ -1,19 +1,19 @@
 ﻿namespace MyEnergyService;
 
-public class HelloWorldService
+public class EnergyPriceCalculator
 {
-    public static string Greet(string name)
+    public static double GetPrice()
     {
-        return $"Hello {name}, powered by Graftcode!";
+        return new Random().Next(100, 105);
     }
     
-    public static int Add(int a, int b)
+    public static int GetRandomNumber()
     {
-        return a + b;
+        return new Random().Next(1, 101);
     }
     
-    public static string GetCurrentTime()
+    public static double GetRandomDiscount()
     {
-        return DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        return new Random().NextDouble() * 0.3; /
     }
 }
