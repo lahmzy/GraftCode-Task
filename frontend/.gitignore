@@ -42,6 +42,7 @@ next-env.d.ts
 
 # .NET build outputs and binaries
 Binaries/
+Binaries.zip
 bin/
 obj/
 *.dll
@@ -53,3 +54,10 @@ obj/
 *.userosscache
 *.suo
 .vs/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
